@@ -1,23 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import { useEffect, useState, Suspense, lazy } from 'react';
+const MovieList = lazy(() => import ('./components/MovieList/MovieList'));
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src="https://fontmeme.com/permalink/201027/8e4d598d8fc33788a3786b39c2620dd5.png" alt="netflix-font" border="0"/>
       </header>
+      <div className="App-body">
+        <Suspense fallback='Loading...'>
+            <MovieList/>
+        </Suspense>
+      </div>
     </div>
   );
 }
