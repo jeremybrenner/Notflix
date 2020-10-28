@@ -1,12 +1,13 @@
 // This API method will fetch actual data from the OMDB movie API, to better showcase suspend
+// Randomly picks a page and term from whitelist 
 export const fetchMovieDataLive = () => {
     const searchTerms = ['cats','dogs','comedy'];
     const searchTerm = searchTerms[Math.floor(Math.random() * searchTerms.length)];
     const searchPage = Math.floor(Math.random() * 2 + 1);
     const API_URL = `https://www.omdbapi.com/?apikey=8caaa016`;
+
     const list = fetch(`${API_URL}&s=${searchTerm}&page=${searchPage}`)
         .then(response => {
-            console.log(response)
             return response.json()
         });
     return list;
