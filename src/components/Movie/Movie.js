@@ -1,7 +1,10 @@
+import './Movie.css';
+
 function Movie({ movie }) {
   return (
-    <div>
-        {movie.Title}
+    <div className="movie-card">
+      <div>{movie.Title}</div>
+      <img src={movie.Poster}/>
     </div>
   );
 }

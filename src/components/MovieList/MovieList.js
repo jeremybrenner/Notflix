@@ -20,7 +20,7 @@ export const MovieList = () => {
   const { loading, movies } = state;
 
   return (
-    <div>
+    <div className="grid">
       {movies.map((m, i) => (
         <Movie key={i} movie={m}/>
       ))}

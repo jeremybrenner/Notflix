@@ -8,7 +8,6 @@ export const fetchMovieDataLive = () => {
             console.log(response)
             return response.json()
         });
-    console.log(list)
     return list;
 }
 

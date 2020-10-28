@@ -1,0 +1,10 @@
+.grid { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    align-items: stretch;
+    justify-items: stretch;
+}
+  .grid div {
+    max-width: 100%;
+  }
