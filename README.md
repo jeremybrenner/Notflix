@@ -18,13 +18,13 @@ You will also see any lint errors in the console.
 
 ### Movie List
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Alt text](public/screenshots/movielist.png?raw=true "Title")
 
 ### Movie Details
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![Alt text](public/screenshots/moviedetail.png?raw=true "Title")
 
 ### Loading with Suspend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![Alt text](public/screenshots/suspendloader.png?raw=true "Title")
 
