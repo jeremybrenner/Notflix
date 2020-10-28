@@ -1,3 +1,18 @@
 .movie-card {
+  padding: 5px;
   margin-top: 20px;
+}
+
+.movie-card div {
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.movie-card img:hover {
+  box-shadow: 
+    0 2.8px 14px rgba(224,224,224, 0.034),
+    0 6.7px 14px rgba(224,224,224, 0.048),
+    0 2.5px 14px rgba(224,224,224, 0.06),
+    0 2.3px 14px rgba(224,224,224, 0.072),
+    0 2.8px 14px rgba(224,224,224, 0.086);
 }

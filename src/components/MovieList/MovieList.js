@@ -22,7 +22,10 @@ export const MovieList = () => {
   return (
     <div className="grid">
       {movies.map((m, i) => (
-        <Movie key={i} movie={m}/>
+        <Movie 
+          key={i} 
+          movie={m}
+        />
       ))}
     </div>
   );
