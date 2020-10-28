@@ -7,7 +7,7 @@ import Movie from '../Movie/Movie'
 const MovieList = () => {
 
   const [state, dispatch] = useReducer(reducer, initialState);
-
+  // If API call is switched to local - then payload reference must change to res
   useEffect(() => {
     fetchMovieDataLive().then(res => {
         dispatch({

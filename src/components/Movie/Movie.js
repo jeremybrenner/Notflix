@@ -1,5 +1,5 @@
 import './Movie.css';
-import React, { useEffect, useState, Suspense } from 'react';
+import React, { useEffect, useState } from 'react';
 import MovieModal from '../MovieModal/MovieModal'
 
 const Movie = ({ movie }) => {
