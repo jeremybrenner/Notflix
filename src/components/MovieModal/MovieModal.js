@@ -22,7 +22,7 @@ const MovieModal = (props) => {
       <Modal.Body>
         <Row>
           <Col>          
-            <p className="modal-content">
+            <div className="modal-content">
               <h5>Description</h5>
               <div>
                 <div>
@@ -35,7 +35,7 @@ const MovieModal = (props) => {
                   <span className="modal-field">Type: </span>{(movie.Type).charAt(0).toUpperCase()+(movie.Type).slice(1)}
                 </div> 
               </div>
-            </p>
+            </div>
           </Col>
           <Col>
             <p id="poster" className="modal-content">
