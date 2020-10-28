@@ -2,10 +2,14 @@
 
 A simple, Netflix-style gallery using React, React-Bootstrap, and the OMDB Movie API. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Setup
 
-In the project directory, you can run:
+In the project directory:
 
+Install dependencies:
+### `npm install`
+
+Run program:
 ### `npm start`
 
 Runs the app in the development mode.\
