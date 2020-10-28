@@ -2,7 +2,7 @@ import './Movie.css';
 import React, { useEffect, useState, Suspense } from 'react';
 import MovieModal from '../MovieModal/MovieModal'
 
-function Movie({ movie }) {
+const Movie = ({ movie }) => {
   const [modalShow, setModalShow] = useState(false)
   return (
     <div className="movie-card">

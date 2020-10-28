@@ -4,7 +4,7 @@ import { fetchMovieDataLocal, fetchMovieDataLive } from '../../api/movies';
 import './MovieList.css';
 import Movie from '../Movie/Movie'
 
-export const MovieList = () => {
+const MovieList = () => {
 
   const [state, dispatch] = useReducer(reducer, initialState);
 

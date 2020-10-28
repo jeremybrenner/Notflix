@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import './MovieModal.css'
 
-function MovieModal(props) {
+const MovieModal = (props) => {
   const movie = props.movie;
   return (
     <Modal
